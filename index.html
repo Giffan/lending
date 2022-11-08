@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="header___logo">
+                    <a href="#">
+                        <img src="img/logo.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2492.148227332363!2d12.3912899!3d51.3451849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f81577dd69bb%3A0xf70bcc1895b15602!2sPflegedienst%20Sonnenblick%20Gbr%20Nelja%20Palma%20und%20Oleg%20Sorin%20Leistungen!5e0!3m2!1sru!2sua!4v1663251151291!5m2!1sru!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container contact__wrapper">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="contact__wrapp">
+                            <div class="contact__title">
+                                Lorem ipsum 
+                            </div>
+                            <div class="contact__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Et officiis amet voluptatem culpa, odit id! Earum, tempora
+                                itaque officiis dicta hic molestias illum optio,
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="contact-field-area">
+                            <div class="contact__block">
+                                <div class="contact__block-item">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>
+                                        <span>lorem</span>
+                                        <span>lorem lorem lorem</span>
+                                    </p>
+                                </div>
+                                <div class="contact__block-item">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>
+                                        <span>lorem</span>
+                                        <span>lorem lorem lorem</span>
+                                    </p>
+                                </div>
+                                <div class="contact__block-item">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>
+                                        <span>lorem</span>
+                                        <span>lorem lorem lorem</span>
+                                    </p>
+                                </div>
+                                <div class="contact__block-item">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p>
+                                        <span>lorem</span>
+                                        <span>lorem lorem lorem</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <form id="ajax-contact" action="mail.php" method="post">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-12 ">
+                                        <div class="single-contact-field">
+                                            <input type="text" name="name" class="text-field" id="name" placeholder="Name"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-12 ">
+                                        <div class="single-contact-field">
+                                            <input type="email" name="email" class="text-field" id="email" placeholder="Email"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="single-contact-field">
+                                            <input type="text" name="subject" class="text-field" id="subject"
+                                                placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <div class="single-contact-field">
+                                            <textarea name="msg" id="msg" placeholder="Message"></textarea>
+                                        </div>
+                                        <input type="submit" name="submit" value="send message" id="submitButton" class="btn3"
+                                            data-text="Send Message">
+                                    </div>
+                                </div>
+                                <div id="form-messages"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-6">Copyright © dizital all rights reserved.</div>
+                <div class="col-md-1 col-3"><a href="#">Contact</a></div>
+                <div class="col-md-1 col-3"><a href="#">About</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
